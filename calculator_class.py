@@ -25,7 +25,8 @@ class Calculator:
         
         
 # 2 Configurando os botões do display 
-# 2.a Bindando C para clear
+
+# 2.a Bindando C para clear.
         
     def _config_buttons(self):
         buttons = self.buttons
@@ -43,4 +44,5 @@ class Calculator:
         
     def clear (self, event=None):
         self.display.delete(0, 'end')
+        
         
